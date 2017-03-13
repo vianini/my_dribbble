@@ -1,0 +1,107 @@
+<html lang="pt-br">
+<head>
+
+    <title>MY_DRIBLE</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+	<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	<script src="js/jquery-1.10.2.js"></script>
+	<script src="js/jribbble.js"></script>
+	<script src="js/index.js"></script>
+  
+    
+    
+
+</head>
+
+<body>
+<div class="page-container horizontal-menu">
+    <header>
+        <!-- Navbar fixed top -->
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                       
+                    </button>
+                    <a class="navbar-brand" href="#">MY_DRIBLE</a>
+                </div>
+                <div class="navbar-collapse collapse">
+
+                    <!-- Left nav -->
+                    <ul class="nav navbar-nav">
+                        <li><a href="#" id="shots">Shots</a></li>
+                    <ul>  
+                </div><!--/.nav-collapse -->
+            </div><!--/.container -->
+        </div>
+    </header>
+
+    
+</div>
+
+<div class="main-content container-fluid">
+
+	<div class="row"> 
+		
+		<div class="col-md-2">
+			<div id="filtro" class="input-group" style="display:none">
+			  <input id="txtfiltro" type="text" class="form-control" placeholder="Filtrar por:">
+			  <span class="input-group-btn">
+				<button id="consultar" class="btn btn-default" type="button">Consultar</button>
+			  </span>
+			</div>
+		</div>
+		<div class="col-md-1 text-center" >
+			<nav id="navigation" aria-label="Page navigation" style="display:none">
+			  <ul class="pagination">
+				<li>
+				  <a id="prev" href="#" aria-label="Previous" style="display:none">
+					<span aria-hidden="true"><<</span>
+				  </a>
+				</li>
+				<li>
+				  <a id="next" href="#" aria-label="Next" style="display:none">
+					<span aria-hidden="true">>></span>
+				  </a>
+				</li>
+			  </ul>
+			</nav>
+		</div>
+		
+		<div class="col-md-1">
+			<div id="zoom" style="display:none" class="btn-group" role="group" aria-label="...">
+			  <button id ="menos" type="button" class="btn btn-default">-</button>
+			  <button type="button" class="btn btn-default">ZOOM</button>
+			  <button id ="mais"  type="button" class="btn btn-default">+</button>
+			</div>
+		</div>
+		
+	</div>
+	<img id="loading" class="loading" src="img/ajax-loader.gif" style="display:none" />
+	
+	<div id="shotsresult" class="container-fluid row" style="display:none">
+	
+		
+	
+	
+	</div>
+	
+
+
+
+ 
+
+</div>
+
+</body>
+</html>
+
+

@@ -1,0 +1,20 @@
+{
+  "name": "my_dribbble",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vianini/my_dribbble.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/vianini/my_dribbble/issues"
+  },
+  "homepage": "https://github.com/vianini/my_dribbble#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
