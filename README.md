@@ -1,4 +1,4 @@
 # my_dribbble
 
-comando para start 
+comando para iniciar: 
 npm start 
